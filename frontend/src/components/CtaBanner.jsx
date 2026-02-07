@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const CtaBanner = () => {
     return (
-        <section className="bg-[#f2f2f2] relative overflow-hidden py-24 md:py-32">
+        <section className="bg-[#f2f2f2] relative overflow-hidden py-16 md:py-32">
             {/* Background Image with Overlay */}
             <div
                 className="absolute inset-0 bg-cover bg-center opacity-30"
@@ -20,7 +20,7 @@ const CtaBanner = () => {
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
-                        className="text-4xl md:text-6xl font-extrabold mb-6 leading-tight drop-shadow-md"
+                        className="text-3xl md:text-6xl font-extrabold mb-6 leading-tight drop-shadow-md"
                     >
                         Ready to Transform Your Space?
                     </motion.h2>

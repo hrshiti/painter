@@ -68,11 +68,11 @@ const Services = () => {
     ];
 
     return (
-        <section className="bg-gray-50 pb-32 relative">
+        <section className="bg-gray-50 pb-16 md:pb-32 relative">
             <div className="max-w-7xl mx-auto px-6">
 
                 {/* Top Floating Cards - Increased Spacing & Better Shadow */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 -mt-20 relative z-20 mb-32">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8 md:-mt-20 relative z-20 mb-16 md:mb-32">
                     {keyFeatures.map((feature, index) => (
                         <motion.div
                             key={index}
@@ -105,7 +105,7 @@ const Services = () => {
                     className="text-center mb-20"
                 >
                     <span className="text-orange-600 font-bold tracking-wider text-sm uppercase mb-2 block">Our Packages</span>
-                    <h2 className="text-4xl md:text-5xl font-extrabold text-[#0A192F] mb-6">Choose Your Painting Plan</h2>
+                    <h2 className="text-3xl md:text-5xl font-extrabold text-[#0A192F] mb-6">Choose Your Painting Plan</h2>
                     <p className="text-gray-500 max-w-2xl mx-auto text-lg leading-relaxed">
                         From quick refreshes to complete makeovers, we have tailored solutions for every home.
                     </p>

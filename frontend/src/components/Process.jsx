@@ -38,7 +38,7 @@ const Process = () => {
     const [activeStep, setActiveStep] = useState(0);
 
     return (
-        <section className="py-24 bg-[#0A192F] text-white overflow-hidden">
+        <section className="py-16 md:py-24 bg-[#0A192F] text-white overflow-hidden">
             <div className="max-w-7xl mx-auto px-6">
 
                 {/* Header */}
@@ -56,7 +56,7 @@ const Process = () => {
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
                         transition={{ delay: 0.1 }}
-                        className="text-4xl md:text-5xl font-extrabold mb-6"
+                        className="text-3xl md:text-5xl font-extrabold mb-6"
                     >
                         How We Work
                     </motion.h2>
@@ -108,7 +108,7 @@ const Process = () => {
                     </div>
 
                     {/* Right: Changing Image Display */}
-                    <div className="relative h-[600px] rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10">
+                    <div className="relative h-[300px] md:h-[600px] rounded-3xl overflow-hidden shadow-2xl border-4 border-white/10">
                         {steps.map((step, index) => (
                             <motion.div
                                 key={index}

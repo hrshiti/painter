@@ -7,6 +7,12 @@ import About from './pages/About/About';
 import ServicesPage from './pages/Services/ServicesPage';
 import PlansPage from './pages/Plans/PlansPage';
 
+// Admin Components
+import AdminLayout from './layouts/AdminLayout';
+import Dashboard from './pages/Admin/Dashboard';
+import Bookings from './pages/Admin/Bookings';
+import Plans from './pages/Admin/Plans';
+
 function App() {
   return (
     <Router>
@@ -18,6 +24,14 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/plans" element={<PlansPage />} />
+
+        {/* Admin Routes */}
+        <Route path="/admin" element={<AdminLayout />}>
+          <Route index element={<Dashboard />} />
+          <Route path="bookings" element={<Bookings />} />
+          <Route path="plans" element={<Plans />} />
+          <Route path="settings" element={<div className="p-8">Settings Page (Coming Soon)</div>} />
+        </Route>
       </Routes>
     </Router>
   );

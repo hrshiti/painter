@@ -44,7 +44,7 @@ const PlanDetail = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
-                        className="text-4xl md:text-6xl font-extrabold text-white mb-4 leading-tight drop-shadow-lg"
+                        className="text-3xl md:text-6xl font-extrabold text-white mb-4 leading-tight drop-shadow-lg"
                     >
                         {plan.title}
                     </motion.h1>
@@ -80,7 +80,7 @@ const PlanDetail = () => {
             </div>
 
             {/* Main Content */}
-            <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 lg:grid-cols-3 gap-12 relative -mt-20 z-10">
+            <div className="max-w-7xl mx-auto px-6 py-8 md:py-16 grid grid-cols-1 lg:grid-cols-3 gap-12 relative mt-0 md:-mt-20 z-10">
 
                 {/* Left Column: Details */}
                 <div className="lg:col-span-2 space-y-12">

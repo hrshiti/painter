@@ -17,12 +17,12 @@ const Hero = () => {
             <Navbar />
 
             {/* Hero Content */}
-            <main className="flex flex-col items-center text-center px-4 mt-12 md:mt-24 max-w-4xl mx-auto relative z-10">
+            <main className="flex flex-col items-center text-center px-4 mt-20 md:mt-24 max-w-4xl mx-auto relative z-10">
                 <motion.h1
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
-                    className="text-4xl md:text-7xl font-extrabold leading-tight mb-6 drop-shadow-lg text-white"
+                    className="text-3xl md:text-7xl font-extrabold leading-tight mb-6 drop-shadow-lg text-white"
                 >
                     Premium Home Painting<br className="hidden md:block" /> Services You Can Trust
                 </motion.h1>
@@ -36,23 +36,23 @@ const Hero = () => {
                     Professional painters, transparent pricing & on-time delivery.
                 </motion.p>
 
-                <div className="flex gap-4">
-                    <Link to="/book">
+                <div className="flex flex-col md:flex-row gap-4 w-full md:w-auto px-4 md:px-0">
+                    <Link to="/book" className="w-full md:w-auto">
                         <motion.button
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 0.6, delay: 0.4 }}
-                            className="bg-[#f97316] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all flex items-center gap-2 shadow-xl hover:scale-105"
+                            className="bg-[#f97316] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-opacity-90 transition-all flex items-center justify-center gap-2 shadow-xl hover:scale-105 w-full md:w-auto"
                         >
                             Book Painting
                         </motion.button>
                     </Link>
-                    <Link to="/plans">
+                    <Link to="/plans" className="w-full md:w-auto">
                         <motion.button
                             initial={{ opacity: 0, scale: 0.9 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 0.6, delay: 0.5 }}
-                            className="bg-transparent text-white border-2 border-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#0A192F] transition-all shadow-xl"
+                            className="bg-transparent text-white border-2 border-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#0A192F] transition-all shadow-xl w-full md:w-auto"
                         >
                             View Plans
                         </motion.button>

@@ -34,11 +34,11 @@ const PlansPage = () => {
         <div className="bg-gray-50 min-h-screen font-sans">
             <div className="bg-[#0A192F] relative overflow-hidden">
                 <Navbar />
-                <div className="relative z-10 py-24 text-center px-4">
+                <div className="relative z-10 py-16 md:py-24 text-center px-4">
                     <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-4xl md:text-6xl font-extrabold text-white mb-4"
+                        className="text-3xl md:text-6xl font-extrabold text-white mb-4"
                     >
                         Transparent Pricing Plans
                     </motion.h1>
@@ -49,7 +49,7 @@ const PlansPage = () => {
             </div>
 
             {/* Plans Grid */}
-            <div className="max-w-7xl mx-auto px-6 py-24 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="max-w-7xl mx-auto px-6 py-16 md:py-24 grid grid-cols-1 md:grid-cols-3 gap-8">
                 {plans.map((plan, index) => (
                     <motion.div
                         key={index}
@@ -82,8 +82,8 @@ const PlansPage = () => {
             </div>
 
             {/* Comparison Table */}
-            <div className="max-w-7xl mx-auto px-6 pb-24">
-                <h2 className="text-3xl font-bold text-center text-[#0A192F] mb-12">Detailed Comparison</h2>
+            <div className="max-w-7xl mx-auto px-6 pb-16 md:pb-24">
+                <h2 className="text-2xl md:text-3xl font-bold text-center text-[#0A192F] mb-12">Detailed Comparison</h2>
                 <div className="overflow-x-auto bg-white rounded-3xl shadow-xl border border-gray-100">
                     <table className="w-full text-left border-collapse">
                         <thead>

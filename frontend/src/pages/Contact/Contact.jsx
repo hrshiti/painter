@@ -38,7 +38,7 @@ const Contact = () => {
                         <motion.h1
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
-                            className="text-4xl md:text-6xl font-extrabold text-white mb-4"
+                            className="text-3xl md:text-6xl font-extrabold text-white mb-4"
                         >
                             Get In Touch
                         </motion.h1>
@@ -49,7 +49,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="max-w-7xl mx-auto px-6 py-16 -mt-20 relative z-20">
+            <div className="max-w-7xl mx-auto px-6 py-8 md:py-16 mt-0 md:-mt-20 relative z-20">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
                     {/* Contact Information Card */}

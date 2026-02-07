@@ -31,7 +31,7 @@ const About = () => {
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.1 }}
-                            className="text-4xl md:text-6xl font-extrabold text-white mb-6 leading-tight"
+                            className="text-3xl md:text-6xl font-extrabold text-white mb-6 leading-tight"
                         >
                             Painting Dreams,<br /> One Wall at a Time.
                         </motion.h1>
@@ -40,7 +40,7 @@ const About = () => {
             </div>
 
             {/* Our Mission */}
-            <section className="py-24 px-6 max-w-7xl mx-auto">
+            <section className="py-16 md:py-24 px-6 max-w-7xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
                     <motion.div
                         initial={{ opacity: 0, x: -50 }}
@@ -50,7 +50,7 @@ const About = () => {
                         <img
                             src="https://images.unsplash.com/photo-1599696847721-6d7ec21c1766?q=80&w=2131&auto=format&fit=crop"
                             alt="Painters at work"
-                            className="rounded-3xl shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500 w-full object-cover h-[500px]"
+                            className="rounded-3xl shadow-2xl rotate-2 hover:rotate-0 transition-transform duration-500 w-full object-cover h-[300px] md:h-[500px]"
                         />
                     </motion.div>
                     <motion.div
@@ -81,7 +81,7 @@ const About = () => {
             </section>
 
             {/* Values */}
-            <section className="bg-gray-50 py-24 px-6">
+            <section className="bg-gray-50 py-16 md:py-24 px-6">
                 <div className="max-w-7xl mx-auto text-center">
                     <h2 className="text-3xl md:text-4xl font-extrabold text-[#0A192F] mb-16">The Al-Fykra Difference</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -62,11 +62,11 @@ const ServicesPage = () => {
             {/* Header */}
             <div className="bg-[#0A192F] relative overflow-hidden">
                 <Navbar />
-                <div className="relative z-10 py-24 text-center px-4">
+                <div className="relative z-10 py-16 md:py-24 text-center px-4">
                     <motion.h1
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
-                        className="text-4xl md:text-6xl font-extrabold text-white mb-4"
+                        className="text-3xl md:text-6xl font-extrabold text-white mb-4"
                     >
                         Our Expert Services
                     </motion.h1>
@@ -80,7 +80,7 @@ const ServicesPage = () => {
             </div>
 
             {/* Services List */}
-            <div className="max-w-7xl mx-auto px-6 py-24 space-y-32">
+            <div className="max-w-7xl mx-auto px-6 py-16 md:py-24 space-y-16 md:space-y-32">
                 {services.map((service, index) => (
                     <motion.div
                         key={index}
@@ -91,7 +91,7 @@ const ServicesPage = () => {
                         className={`flex flex-col md:flex-row gap-12 items-center ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''}`}
                     >
                         {/* Image Side */}
-                        <div className="flex-1 w-full h-[400px] md:h-[500px] relative rounded-3xl overflow-hidden shadow-2xl group">
+                        <div className="flex-1 w-full h-[250px] md:h-[500px] relative rounded-3xl overflow-hidden shadow-2xl group">
                             <img
                                 src={service.image}
                                 alt={service.title}
@@ -108,7 +108,7 @@ const ServicesPage = () => {
                             <div className="bg-white p-4 rounded-xl shadow-sm w-fit inline-block mb-2">
                                 {service.icon}
                             </div>
-                            <h2 className="text-3xl md:text-5xl font-extrabold text-[#0A192F]">{service.title}</h2>
+                            <h2 className="text-2xl md:text-5xl font-extrabold text-[#0A192F]">{service.title}</h2>
                             <p className="text-lg text-gray-600 leading-relaxed">
                                 {service.desc}
                             </p>

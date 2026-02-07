@@ -44,13 +44,13 @@ const ServiceCategories = () => {
     ];
 
     return (
-        <section className="py-24 bg-white">
+        <section className="py-16 md:py-24 bg-white">
             <div className="max-w-7xl mx-auto px-6">
 
                 <div className="flex flex-col md:flex-row justify-between items-end mb-12">
                     <div className="max-w-2xl">
                         <span className="text-orange-600 font-bold tracking-wider text-sm uppercase mb-2 block">Our Expertise</span>
-                        <h2 className="text-4xl md:text-5xl font-extrabold text-[#0A192F] leading-tight">
+                        <h2 className="text-3xl md:text-5xl font-extrabold text-[#0A192F] leading-tight">
                             Complete Home <br /> Painting Services
                         </h2>
                     </div>
