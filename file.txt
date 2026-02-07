@@ -1,0 +1,447 @@
+🎨 Al-Fykra Painters – Frontend Website Plan (Detailed)
+🔥 Core Concept (Refined)
+
+Users website visit karenge
+
+Painting services explore karenge (plans + area wise pricing)
+
+Plan select karke booking submit karenge
+
+Booking admin panel me jayegi
+
+Admin painter assign karega (future backend)
+
+Abhi sirf frontend focus, but backend-ready structure
+
+🧱 Tech Stack (Modern & Safe)
+
+Frontend
+
+React (Vite)
+
+Tailwind CSS
+
+React Router DOM
+
+Framer Motion (animations)
+
+React Hook Form (forms)
+
+Zustand / Context API (state)
+
+Lucide / Hero Icons
+
+Swiper.js (sliders)
+
+Admin Panel
+
+Same React App (role-based UI)
+
+Tailwind + Headless UI
+
+Recharts (dashboard graphs)
+
+🌐 Website Pages Structure
+/
+├── Home
+├── About Us
+├── Services
+│   ├── Interior Painting
+│   ├── Exterior Painting
+│   ├── Commercial Painting
+│   ├── Custom Painting
+├── Painting Plans
+│   ├── 1BHK Plan
+│   ├── 2BHK Plan
+│   ├── 3BHK Plan
+│   ├── Villa Plan
+│   └── Area-wise Details Page
+├── Book Painting
+├── Contact Us
+├── Login / Signup
+└── Admin Panel
+    ├── Dashboard
+    ├── Bookings
+    ├── Painters
+    ├── Plans
+    ├── Customers
+    └── Settings
+
+🏠 HOME PAGE (Most Important)
+1️⃣ Hero Section (High-Conversion)
+
+Goal: User turant trust kare aur “Book Painting” click kare
+
+Elements
+
+Big headline
+
+“Premium Home Painting Services You Can Trust”
+
+Sub-text
+
+“Professional painters, transparent pricing & on-time delivery”
+
+CTA Buttons
+
+Book Painting
+
+View Plans
+
+Background:
+
+Gradient / soft image
+
+Subtle paint-brush animation
+
+Motion:
+
+Fade + slide animation (Framer Motion)
+
+2️⃣ Why Choose Al-Fykra
+
+Cards (icons ke saath):
+
+🎨 Trained Professional Painters
+
+💰 Transparent Pricing
+
+⏱️ On-Time Completion
+
+🧼 Clean & Safe Work
+
+⭐ Quality Assurance
+
+3️⃣ Services Section
+
+Grid Cards:
+
+Interior Painting
+
+Exterior Painting
+
+Commercial Painting
+
+Wall Texture
+
+Waterproofing
+
+Custom Color Consultation
+
+Each card:
+
+Icon/Image
+
+Short description
+
+“Explore” button
+
+4️⃣ Painting Plans (Preview)
+
+Cards:
+
+1BHK Painting
+
+2BHK Painting
+
+3BHK Painting
+
+Villa Painting
+
+Each card:
+
+Starting price
+
+Area range
+
+Paint type
+
+CTA: View Details
+
+5️⃣ How It Works (Step UI)
+
+Select Plan
+
+Choose Area & Paint
+
+Book Slot
+
+Painter Assigned
+
+Work Completed
+
+Timeline / stepper design
+
+6️⃣ Testimonials (Optional but Powerful)
+
+Client image
+
+Review
+
+Star rating
+
+Location
+
+7️⃣ CTA Banner
+
+“Get Your Home Painted Hassle-Free”
+
+Button:
+
+Book Now
+
+8️⃣ Footer
+
+Quick links
+
+Services
+
+Contact details
+
+Social icons
+
+Copyright
+
+🧾 ABOUT US PAGE
+
+Sections:
+
+Company intro
+
+Vision & Mission
+
+Our Process
+
+Quality Promise
+
+Team trust section
+
+CTA: Book Painting
+
+🛠️ SERVICES PAGE
+
+Grid layout:
+
+Service image
+
+Details
+
+Included work
+
+Ideal for
+
+CTA: View Plans
+
+🎯 PAINTING PLANS (MAIN PAGE)
+
+Cards layout:
+
+Plan name (1BHK / 2BHK / Villa)
+
+Carpet area range
+
+Time duration
+
+Starting price
+
+Button: View Area-Wise Pricing
+
+📐 AREA-WISE PLAN DETAIL PAGE (IMPORTANT)
+Example: 2BHK Interior Painting
+Sections:
+1️⃣ Plan Summary
+
+Area range: 800–1200 sqft
+
+Paint type
+
+Finish
+
+Warranty
+
+Duration
+
+2️⃣ Area-Wise Breakdown (Table / Cards)
+Area	Description
+Living Room	Primer + 2 coats
+Bedrooms	Smooth finish
+Kitchen	Washable paint
+Balcony	Weather resistant
+3️⃣ What’s Included
+
+Material
+
+Labor
+
+Cleaning
+
+Protection sheets
+
+4️⃣ Add-Ons (Optional)
+
+Texture wall
+
+Waterproof coating
+
+Premium paint upgrade
+
+5️⃣ Pricing Box (Sticky)
+
+Total price
+
+Estimated days
+
+CTA: Book This Plan
+
+📋 BOOK PAINTING PAGE
+
+Form Sections:
+
+Name
+
+Mobile number
+
+Address
+
+City
+
+Plan selected (auto)
+
+Area size
+
+Preferred date
+
+Notes
+
+Submit → Confirmation UI
+
+📞 CONTACT US PAGE
+
+Contact form
+
+Phone
+
+Email
+
+Address
+
+Google map (future)
+
+🔐 LOGIN / SIGNUP PAGE
+
+(Simple UI – admin future ready)
+
+🧠 ADMIN PANEL (Frontend Only)
+Admin Layout
+
+Sidebar
+
+Topbar
+
+Main content area
+
+📊 Dashboard
+
+Total bookings
+
+Pending jobs
+
+Completed jobs
+
+Monthly revenue (dummy chart)
+
+📦 Bookings Management
+
+Table:
+
+Customer name
+
+Plan
+
+Address
+
+Status
+
+Assign Painter (UI dropdown)
+
+View details
+
+🧑‍🎨 Painters Management
+
+Painter list
+
+Availability status
+
+Area coverage
+
+Assign jobs
+
+🧾 Plans Management
+
+Add/Edit plans
+
+Pricing
+
+Area details
+
+Visibility toggle
+
+👥 Customers
+
+Customer list
+
+Booking history
+
+⚙️ Settings
+
+Company info
+
+Contact details
+
+Theme colors
+
+Logo upload
+
+🎨 UI Design Style Guide
+
+Colors:
+
+Navy Blue
+
+Orange
+
+White
+
+Font:
+
+Inter / Poppins
+
+Radius:
+
+Rounded-xl
+
+Shadows:
+
+Soft elevation
+
+Animations:
+
+Subtle, professional
+
+🧩 Folder Structure (Frontend)
+src/
+├── components/
+├── pages/
+│   ├── Home
+│   ├── About
+│   ├── Services
+│   ├── Plans
+│   ├── PlanDetail
+│   ├── Book
+│   ├── Contact
+│   └── Admin
+├── layouts/
+├── data/
+├── hooks/
+├── store/
+└── assets/
