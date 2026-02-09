@@ -6,24 +6,24 @@ const Testimonials = () => {
     const reviews = [
         {
             id: 1,
-            name: "Aarav Sharma",
-            location: "Mumbai",
+            name: "Ahmed Al-Sayed",
+            location: "Dubai Marina",
             image: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=2574&auto=format&fit=crop",
             rating: 5,
-            text: "Al-Fykra transformed our 3BHK completely! The painters were professional, on time, and the dust-free process was a game changer. Highly recommended!"
+            text: "Al-Fykra transformed our 1BR apartment completely! The painters were professional, on time, and the dust-free process was a game changer. Highly recommended!"
         },
         {
             id: 2,
-            name: "Priya Patel",
-            location: "Ahmedabad",
+            name: "Sarah Williams",
+            location: "Palm Jumeirah",
             image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2574&auto=format&fit=crop",
             rating: 5,
             text: "I loved the color consultation service. They helped me choose a pastel theme that looks absolutely stunning. The finishing is flawless."
         },
         {
             id: 3,
-            name: "Rahul Verma",
-            location: "Pune",
+            name: "Mohammed Bin Tariq",
+            location: "Downtown Dubai",
             image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2574&auto=format&fit=crop",
             rating: 4,
             text: "Great value for money. The transparent pricing plan meant no hidden shocks later. The team finished the job 2 days ahead of schedule."

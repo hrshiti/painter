@@ -5,18 +5,18 @@ import { Search, Filter, Trash2, Edit2, Phone, Mail, Calendar, CheckCircle, Cloc
 const Bookings = () => {
     // Sample Data
     const [bookings, setBookings] = useState([
-        { id: 101, name: 'Amit Sharma', email: 'amit@example.com', phone: '9876543210', service: '2BHK Premium', date: '2023-11-20', status: 'Pending', amount: '18,500', assignedPainter: null },
-        { id: 102, name: 'Priya Desai', email: 'priya@example.com', phone: '8765432109', service: '3BHK Luxury', date: '2023-11-22', status: 'In Progress', amount: '26,000', assignedPainter: 'Raju Painter' },
-        { id: 103, name: 'Rohan Mehta', email: 'rohan@example.com', phone: '7654321098', service: 'Villa Custom', date: '2023-11-25', status: 'Completed', amount: '45,000', assignedPainter: 'Suresh Art' },
-        { id: 104, name: 'Deepa Singh', email: 'deepa@example.com', phone: '6543210987', service: '1BHK Refresh', date: '2023-11-28', status: 'Pending', amount: '12,500', assignedPainter: null },
-        { id: 105, name: 'Karan Patel', email: 'karan@example.com', phone: '5432109876', service: 'Exterior Paint', date: '2023-12-01', status: 'Approved', amount: '32,000', assignedPainter: null },
+        { id: 101, name: 'Omar Al-Fayed', email: 'omar@example.com', phone: '+971 50 123 4567', service: '2 BR Premium', date: '2023-11-20', status: 'Pending', amount: '925', assignedPainter: null },
+        { id: 102, name: 'Sarah Johnson', email: 'sarah@example.com', phone: '+971 52 987 6543', service: '3 BR Luxury', date: '2023-11-22', status: 'In Progress', amount: '1,300', assignedPainter: 'Premier Painters' },
+        { id: 103, name: 'Khalid Bin Waleed', email: 'khalid@example.com', phone: '+971 55 555 5555', service: 'Villa Custom', date: '2023-11-25', status: 'Completed', amount: '2,250', assignedPainter: 'Dubai Colors Team' },
+        { id: 104, name: 'Maria Garcia', email: 'maria@example.com', phone: '+971 58 111 2222', service: '1 BR Refresh', date: '2023-11-28', status: 'Pending', amount: '625', assignedPainter: null },
+        { id: 105, name: 'James Wilson', email: 'james@example.com', phone: '+971 56 333 4444', service: 'Exterior Paint', date: '2023-12-01', status: 'Approved', amount: '1,600', assignedPainter: null },
     ]);
 
     const painters = [
-        { id: 1, name: 'Raju Painter', phone: '9876500001', rating: 4.8 },
-        { id: 2, name: 'Suresh Art', phone: '9876500002', rating: 4.5 },
-        { id: 3, name: 'Color Masters Team', phone: '9876500003', rating: 4.9 },
-        { id: 4, name: 'Vijay Decorators', phone: '9876500004', rating: 4.6 },
+        { id: 1, name: 'Premier Painters', phone: '+971 50 000 0001', rating: 4.8 },
+        { id: 2, name: 'Dubai Colors Team', phone: '+971 50 000 0002', rating: 4.5 },
+        { id: 3, name: 'Artistic Walls UAE', phone: '+971 50 000 0003', rating: 4.9 },
+        { id: 4, name: 'Golden Brush Decor', phone: '+971 50 000 0004', rating: 4.6 },
     ];
 
     const [searchTerm, setSearchTerm] = useState('');
@@ -157,7 +157,7 @@ const Bookings = () => {
                                     )}
                                 </td>
                                 <td className="p-6 font-bold text-gray-800">
-                                    ₹{booking.amount}
+                                    AED {booking.amount}
                                 </td>
                                 <td className="p-6">
                                     <span className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide inline-flex items-center gap-1 ${getStatusColor(booking.status)}`}>
@@ -210,7 +210,7 @@ const Bookings = () => {
                         <div className="space-y-3 text-sm text-gray-600 mb-4 bg-gray-50 p-3 rounded-lg">
                             <div className="flex items-center gap-2"><Phone size={16} className="text-gray-400" /> {booking.phone}</div>
                             <div className="flex items-center gap-2"><Calendar size={16} className="text-gray-400" /> {booking.date}</div>
-                            <div className="flex items-center gap-2 font-bold text-gray-800"><DollarSign size={16} className="text-gray-400" /> ₹{booking.amount}</div>
+                            <div className="flex items-center gap-2 font-bold text-gray-800"><DollarSign size={16} className="text-gray-400" /> AED {booking.amount}</div>
                         </div>
 
                         {booking.assignedPainter ? (

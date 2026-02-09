@@ -59,7 +59,7 @@ const CtaBanner = () => {
                         transition={{ delay: 0.3 }}
                     >
                         <a
-                            href="tel:+919876543210"
+                            href="tel:+971501234567"
                             className="bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-orange-600 transition-all flex items-center justify-center gap-2"
                         >
                             Call Us <Phone size={20} />

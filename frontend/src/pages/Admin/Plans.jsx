@@ -4,10 +4,10 @@ import { Plus, Edit3, Trash, Check } from 'lucide-react';
 
 const Plans = () => {
     const [plans, setPlans] = useState([
-        { id: 1, name: '1BHK Standard', price: 12000, features: ['Tractor Emulsion', 'Basic Prep', '6 Months Warranty'], popular: false },
-        { id: 2, name: '2BHK Premium', price: 18000, features: ['Premium Emulsion', 'Full Prep', '1 Year Warranty', 'Texture Wall'], popular: true },
-        { id: 3, name: '3BHK Luxury', price: 25000, features: ['Royal Play', 'Deep Cleaning', '3 Years Warranty', 'All Walls Texture', 'Sanitization'], popular: false },
-        { id: 4, name: 'Villa Custom', price: 50000, features: ['Custom Finishes', 'Dedicated Curator', '5 Years Warranty', 'Exterior Included'], popular: false },
+        { id: 1, name: '1 BR Standard', price: 600, features: ['Tractor Emulsion', 'Basic Prep', '6 Months Warranty'], popular: false },
+        { id: 2, name: '2 BR Premium', price: 900, features: ['Premium Emulsion', 'Full Prep', '1 Year Warranty', 'Texture Wall'], popular: true },
+        { id: 3, name: '3 BR Luxury', price: 1250, features: ['Royal Play', 'Deep Cleaning', '3 Years Warranty', 'All Walls Texture', 'Sanitization'], popular: false },
+        { id: 4, name: 'Villa Custom', price: 2500, features: ['Custom Finishes', 'Dedicated Curator', '5 Years Warranty', 'Exterior Included'], popular: false },
     ]);
 
     const handlePopularToggle = (id) => {
@@ -54,7 +54,7 @@ const Plans = () => {
                         <div className="flex justify-between items-start mb-4">
                             <div>
                                 <h3 className="text-xl font-bold text-gray-800">{plan.name}</h3>
-                                <p className="text-3xl font-extrabold text-[#0A192F] mt-2">₹{plan.price.toLocaleString()}</p>
+                                <p className="text-3xl font-extrabold text-[#0A192F] mt-2">AED {plan.price.toLocaleString()}</p>
                                 <p className="text-xs text-gray-400 mt-1">Starting Price</p>
                             </div>
                             <button className="text-gray-400 hover:text-gray-600 transition-colors p-2 hover:bg-gray-100 rounded-full">

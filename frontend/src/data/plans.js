@@ -1,9 +1,9 @@
 export const plansData = {
-    "1bhk-refresh": {
-        id: "1bhk-refresh",
-        title: "1BHK Refresh Plan",
+    "1br-refresh": {
+        id: "1br-refresh",
+        title: "1 BR Refresh Plan",
         subtitle: "Quick & budget-friendly makeover for compact homes",
-        price: "₹12,000",
+        price: "AED 600",
         duration: "3-4 Days",
         warranty: "6 Months",
         image: "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=2668&auto=format&fit=crop",
@@ -25,11 +25,11 @@ export const plansData = {
             "Deep cleaning of floors"
         ]
     },
-    "2bhk-premium": {
-        id: "2bhk-premium",
-        title: "2BHK Premium Plan",
+    "2br-premium": {
+        id: "2br-premium",
+        title: "2 BR Premium Plan",
         subtitle: "High-quality finish with durability and shine",
-        price: "₹18,000",
+        price: "AED 900",
         duration: "5-6 Days",
         warranty: "1 Year",
         image: "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=2670&auto=format&fit=crop",
@@ -50,11 +50,11 @@ export const plansData = {
             "External painting"
         ]
     },
-    "3bhk-luxury": {
-        id: "3bhk-luxury",
-        title: "3BHK Luxury Royale",
+    "3br-luxury": {
+        id: "3br-luxury",
+        title: "3 BR Luxury Royale",
         subtitle: "The ultimate luxury experience for your dream home",
-        price: "₹25,000",
+        price: "AED 1,200",
         duration: "7-8 Days",
         warranty: "3 Years",
         image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2670&auto=format&fit=crop",

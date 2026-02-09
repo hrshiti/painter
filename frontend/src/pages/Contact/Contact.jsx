@@ -68,8 +68,8 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <p className="text-sm text-gray-400 mb-1">Call Us Anytime</p>
-                                        <p className="text-xl font-semibold">+91 98765 43210</p>
-                                        <p className="text-sm text-gray-500">+91 12345 67890</p>
+                                        <p className="text-xl font-semibold">+971 50 123 4567</p>
+                                        <p className="text-sm text-gray-500">+971 4 123 4567</p>
                                     </div>
                                 </div>
 
@@ -90,7 +90,7 @@ const Contact = () => {
                                     </div>
                                     <div>
                                         <p className="text-sm text-gray-400 mb-1">Our Location</p>
-                                        <p className="text-lg font-semibold leading-snug">123, Paint Avenue,<br /> Color City, Maharashtra,<br /> India - 400001</p>
+                                        <p className="text-lg font-semibold leading-snug">Office 402, Al Barsha Business Centre,<br /> Al Barsha 1, Dubai, UAE</p>
                                     </div>
                                 </div>
 
@@ -157,7 +157,7 @@ const Contact = () => {
                                         name="phone"
                                         required
                                         className="w-full px-6 py-4 rounded-xl bg-gray-50 border border-gray-200 focus:border-orange-500 focus:bg-white focus:ring-2 focus:ring-orange-200 outline-none transition-all placeholder:text-gray-400"
-                                        placeholder="+91 98765 43210"
+                                        placeholder="+971 50 123 4567"
                                         value={formData.phone}
                                         onChange={handleChange}
                                     />
@@ -186,9 +186,9 @@ const Contact = () => {
                                         onChange={handleChange}
                                     >
                                         <option value="">Select a Service</option>
-                                        <option value="1bhk">1BHK Refresh</option>
-                                        <option value="2bhk">2BHK Premium</option>
-                                        <option value="3bhk">3BHK Luxury</option>
+                                        <option value="1br">1 BR Refresh</option>
+                                        <option value="2br">2 BR Premium</option>
+                                        <option value="3br">3 BR Luxury</option>
                                         <option value="villa">Villa / Custom</option>
                                         <option value="other">Other Inquiry</option>
                                     </select>

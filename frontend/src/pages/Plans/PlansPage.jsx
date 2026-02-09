@@ -9,21 +9,21 @@ const PlansPage = () => {
     const plans = [
         {
             title: "Standard",
-            price: "₹12,000",
+            price: "AED 600",
             duration: "3-4 Days",
             features: ["Tractor Emulsion", "Standard Finish", "Basic Cleaning", "6 Months Warranty"],
             isPopular: false
         },
         {
             title: "Premium",
-            price: "₹18,000",
+            price: "AED 900",
             duration: "5-6 Days",
             features: ["Premium Emulsion", "High Sheen Finish", "Texture Included", "1 Year Warranty", "Deep Cleaning"],
             isPopular: true
         },
         {
             title: "Luxury",
-            price: "₹25,000",
+            price: "AED 1,250",
             duration: "7-8 Days",
             features: ["Royal Play Designs", "Luxury Finish", "2 Texture Walls", "3 Years Warranty", "Post-Paint Sanitization"],
             isPopular: false
@@ -63,7 +63,7 @@ const PlansPage = () => {
                         )}
                         <h3 className="text-2xl font-bold text-gray-800 mb-2">{plan.title}</h3>
                         <div className="text-4xl font-extrabold text-[#0A192F] mb-1">{plan.price}</div>
-                        <p className="text-gray-500 text-sm mb-6">Estimated for typical 1BHK/2BHK</p>
+                        <p className="text-gray-500 text-sm mb-6">Estimated for typical 1 BR / 2 BR apartments</p>
 
                         <ul className="space-y-4 mb-8 flex-grow">
                             {plan.features.map((feature, idx) => (

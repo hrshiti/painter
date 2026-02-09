@@ -87,7 +87,7 @@ const About = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {[
                             { title: "Transparency", desc: "No hidden costs. The price we quote is the price you pay.", img: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=2670&auto=format&fit=crop" },
-                            { title: "Quality", desc: "We use only premium paints (Asian Paints, Berger, etc.) for a lasting finish.", img: "https://images.unsplash.com/photo-1562663474-6cbb3eaa4d14?q=80&w=2670&auto=format&fit=crop" },
+                            { title: "Quality", desc: "We use only premium paints (Jotun, National Paints, etc.) for a lasting finish.", img: "https://images.unsplash.com/photo-1562663474-6cbb3eaa4d14?q=80&w=2670&auto=format&fit=crop" },
                             { title: "Speed", desc: "Automated tools and organized teams ensure we finish 40% faster.", img: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2670&auto=format&fit=crop" }
                         ].map((item, index) => (
                             <motion.div

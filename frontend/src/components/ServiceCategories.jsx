@@ -59,7 +59,7 @@ const ServiceCategories = () => {
                     </Link>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6">
                     {services.map((service, index) => (
                         <motion.div
                             key={service.id}
@@ -67,7 +67,7 @@ const ServiceCategories = () => {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1, duration: 0.5 }}
-                            className={`group relative rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 cursor-pointer ${service.colSpan} ${service.height}`}
+                            className={`group relative rounded-2xl md:rounded-3xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 cursor-pointer col-span-1 ${service.colSpan} h-40 md:${service.height}`}
                         >
                             {/* Image */}
                             <div
@@ -79,18 +79,18 @@ const ServiceCategories = () => {
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent group-hover:from-black/90 transition-opacity" />
 
                             {/* Content */}
-                            <div className="absolute bottom-0 left-0 w-full p-8 text-white transform translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
-                                <span className="bg-orange-600 text-xs font-bold px-3 py-1 rounded-full mb-3 inline-block uppercase tracking-wide">
+                            <div className="absolute bottom-0 left-0 w-full p-4 md:p-8 text-white transform translate-y-0 md:translate-y-2 group-hover:translate-y-0 transition-transform duration-300">
+                                <span className="bg-orange-600 text-[10px] md:text-xs font-bold px-2 py-0.5 md:px-3 md:py-1 rounded-full mb-1 md:mb-3 inline-block uppercase tracking-wide">
                                     {service.subtitle}
                                 </span>
-                                <h3 className="text-2xl font-bold mb-2 group-hover:text-orange-100 transition-colors">{service.title}</h3>
-                                <p className="text-gray-300 text-sm max-w-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 line-clamp-2">
+                                <h3 className="text-sm md:text-2xl font-bold mb-1 md:mb-2 group-hover:text-orange-100 transition-colors">{service.title}</h3>
+                                <p className="text-gray-300 text-sm max-w-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100 line-clamp-2 hidden md:block">
                                     {service.description}
                                 </p>
 
-                                <div className="absolute right-8 bottom-8 opacity-0 group-hover:opacity-100 transition-all duration-300 translate-x-4 group-hover:translate-x-0">
-                                    <div className="bg-white text-black p-3 rounded-full hover:bg-orange-500 hover:text-white">
-                                        <ArrowUpRight size={20} />
+                                <div className="absolute right-4 bottom-4 md:right-8 md:bottom-8 opacity-100 md:opacity-0 group-hover:opacity-100 transition-all duration-300 md:translate-x-4 group-hover:translate-x-0">
+                                    <div className="bg-white text-black p-1.5 md:p-3 rounded-full hover:bg-orange-500 hover:text-white">
+                                        <ArrowUpRight size={14} className="md:w-[20px] md:h-[20px]" />
                                     </div>
                                 </div>
                             </div>

@@ -4,17 +4,17 @@ import { Users, DollarSign, Briefcase, Activity } from 'lucide-react';
 
 const Dashboard = () => {
     const stats = [
-        { label: 'Total Revenue', value: '₹2,45,000', icon: <DollarSign size={24} />, bg: 'bg-green-100', text: 'text-green-600', trend: '+12%' },
+        { label: 'Total Revenue', value: 'AED 12,500', icon: <DollarSign size={24} />, bg: 'bg-green-100', text: 'text-green-600', trend: '+12%' },
         { label: 'Pending Bookings', value: '14', icon: <Briefcase size={24} />, bg: 'bg-orange-100', text: 'text-orange-600', trend: '-5%' },
         { label: 'Active Painters', value: '8', icon: <Users size={24} />, bg: 'bg-blue-100', text: 'text-blue-600', trend: '+2%' },
         { label: 'Completed Jobs', value: '124', icon: <Activity size={24} />, bg: 'bg-purple-100', text: 'text-purple-600', trend: '+8%' },
     ];
 
     const bookings = [
-        { id: '#BK-001', name: 'Alok Sharma', service: '2BHK Premium', date: '2023-11-20', status: 'Pending', statusColor: 'bg-orange-100 text-orange-600' },
-        { id: '#BK-002', name: 'Priya Desai', service: '3BHK Luxury', date: '2023-11-22', status: 'In Progress', statusColor: 'bg-blue-100 text-blue-600' },
-        { id: '#BK-003', name: 'Rohan Mehta', service: 'Villa Custom', date: '2023-11-25', status: 'Completed', statusColor: 'bg-green-100 text-green-600' },
-        { id: '#BK-004', name: 'Deepa Singh', service: '1BHK Refresh', date: '2023-11-28', status: 'Pending', statusColor: 'bg-orange-100 text-orange-600' },
+        { id: '#BK-001', name: 'Ahmed Al-Mansoori', service: '2 BR Premium', date: '2023-11-20', status: 'Pending', statusColor: 'bg-orange-100 text-orange-600' },
+        { id: '#BK-002', name: 'Layla Hassan', service: '3 BR Luxury', date: '2023-11-22', status: 'In Progress', statusColor: 'bg-blue-100 text-blue-600' },
+        { id: '#BK-003', name: 'John Doe', service: 'Villa Custom', date: '2023-11-25', status: 'Completed', statusColor: 'bg-green-100 text-green-600' },
+        { id: '#BK-004', name: 'Fatima Ali', service: '1 BR Refresh', date: '2023-11-28', status: 'Pending', statusColor: 'bg-orange-100 text-orange-600' },
     ];
 
     return (
