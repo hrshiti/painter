@@ -33,6 +33,14 @@ const Services = () => {
 
     const plans = [
         {
+            id: "studio-starter",
+            title: "Studio Starter",
+            description: "Efficient & elegant makeover for studio spaces. Quick & budget-friendly.",
+            price: "Starts AED 450",
+            image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=2670&auto=format&fit=crop",
+            features: ["Standard Finish", "2-3 Days", "Budget Friendly"]
+        },
+        {
             id: "1br-refresh",
             title: "1 BR Refresh",
             description: "Perfect for compact homes. Includes living, bedroom, kitchen & bath.",
