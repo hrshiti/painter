@@ -1,4 +1,29 @@
 export const plansData = {
+    "studio-starter": {
+        id: "studio-starter",
+        title: "Studio Starter Plan",
+        subtitle: "Efficient & elegant makeover for studio spaces",
+        price: "AED 450",
+        duration: "2-3 Days",
+        warranty: "6 Months",
+        image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?q=80&w=2670&auto=format&fit=crop",
+        features: ["Quick Turnaround", "Standard Finish", "Budget Friendly"],
+        rooms: [
+            { name: "Living / Bedroom Area", details: "Touch-up putty + 1 coat primer + 2 coats paint" },
+            { name: "Kitchenette", details: "Washable paint for easy cleaning" },
+            { name: "Bathroom", details: "Moisture-resistant ceiling paint" }
+        ],
+        inclusions: [
+            "Wall sanding and basic crack filling",
+            "Furniture masking and protection",
+            "Post-painting basic cleanup"
+        ],
+        exclusions: [
+            "Major waterproofing work",
+            "Texture or stencil designs",
+            "Deep cleaning of floors"
+        ]
+    },
     "1br-refresh": {
         id: "1br-refresh",
         title: "1 BR Refresh Plan",
